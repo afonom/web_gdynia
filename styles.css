@@ -3,10 +3,17 @@
     font-size: 22px
 }
 
+.img-contrast {
+    width: 20%;
+}
+
 .img-crudogrill {
     width: 20%;
 }
 
+.img-vinegre {
+    width: 20%;
+}
 .center-text {
     text-align: center;
     font-size: 50px;
