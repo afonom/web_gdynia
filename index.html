@@ -1,11 +1,36 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster">
+        <script src="lib.js"></script>
     </head>
     <body>
-        <h1 class="center-text">restaurant gdynia</h1>
-        <p class="color-negre">
-            crudogrill polonia  <a href="https://crudogrill.com/gdynia"/>gdynia</a></p>
-        <img class="img-crudogrill" src="CRUDO-1.jpg" alt="crudogrill">
+        
+        <h1 class="center-text">restaurants gdynia</h1>
+
+        <!-- Tab links -->
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'crudogrill')">crudogrill</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+        </div>
+        
+        <!-- Tab content -->
+        <div id="crudogrill" class="tabcontent">
+            <p class="color-negre">
+                crudogrill polonia  <a href="https://crudogrill.com/gdynia"/>gdynia</a></p>
+            <img class="img-crudogrill" src="CRUDO-1.jpg" alt="crudogrill">
+        </div>
+        
+        <div id="Paris" class="tabcontent">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p>
+        </div>
+        
+        <div id="Tokyo" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+
     </body>
 </html>
